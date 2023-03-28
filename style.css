@@ -172,7 +172,7 @@ button:hover{
   border: 3px solid #1d1e22;
 }
 button:active{
-  background-color: black;
+  background-color: #1d1e22;
   color: white;
   border: 3px solid white;
 }
@@ -184,6 +184,8 @@ button:active{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items:flex-start;
+  gap:0.1rem;
 }
 
 .container {
@@ -194,7 +196,7 @@ button:active{
   background-color: #343539;
   border:3px solid #060606;
   overflow: auto;
-  margin-bottom:0.1rem;
+  
   
 
   display: flex;
@@ -256,7 +258,7 @@ button:active{
 
 .containerSelect {
   width: 600px;
-  height: 450px;
+  
   display: flex;
   border-radius: 5px;
   flex-direction: column;
