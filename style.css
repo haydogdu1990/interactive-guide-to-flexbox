@@ -149,33 +149,40 @@ h1 {
 .buttonDiv{
   
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
+  background-color: #060606; 
+  margin-bottom:4px;
+  
   
 }
-button{
+.button{
   
   height:40px;
   padding:0 1rem 0 1rem;
   margin:0.1rem;
   
-  border-radius: 10px;
+  
   color: white;
   font-size: 1rem;
   font-family: "Century Gothic";
   background-color: #1d1e22; 
   border: 3px solid #1d1e22;
+  margin-bottom:6px;
 }
 
-button:hover{
+.button:hover{
   background-color: white;
   color: #1d1e22;
   border: 3px solid #1d1e22;
 }
-button:active{
+
+.button:active{
   background-color: #1d1e22;
   color: white;
   border: 3px solid white;
 }
+
+
 
 /* */
 
@@ -258,7 +265,7 @@ button:active{
 
 .containerSelect {
   width: 600px;
-  
+  height: 450px;
   display: flex;
   border-radius: 5px;
   flex-direction: column;
@@ -360,4 +367,27 @@ select:hover {
   background-color: #004d63;
   border-radius: 3px;
   border: 0;
+}
+
+
+.copyButton{
+  height: 2.5rem;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2rem;
+  background-color: #003442;
+  color: #aee9fa;
+  border:0px;
+  margin-top:25px;
+}
+
+.copyButton:hover{
+  background-color: #343539;
+  
+  
+}
+
+.copyButton:active{
+  background-color: #1d1e22;
+  
+  
 }
