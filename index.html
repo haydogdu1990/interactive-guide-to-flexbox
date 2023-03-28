@@ -23,7 +23,7 @@
     <div class="buttonDiv">
       <button onClick="resetBox()">Reset Items</button>
         <button onClick="addBox()">+ Items</button>
-      <button onClick="copyText()">Copy Code</button>
+      
         
       </div>
 
@@ -39,6 +39,7 @@
 
       <div class="containerSelect">
         <p class="codeTitle">style.css</p>
+        
         <p class="p1">.container {</p>
 
         <div class="rows">
@@ -87,6 +88,7 @@
             <option value="space-between">space-between;</option>
             <option value="space-around">space-around;</option>
             <option value="space-evenly">space-evenly;</option>
+            
           </select>
         </div>
 
@@ -97,8 +99,11 @@
             <option value="stretch">stretch;</option>
             <option value="flex-start">flex-start;</option>
             <option value="flex-end">flex-end;</option>
+            
             <option value="center">center;</option>
             <option value="baseline">baseline;</option>
+            
+            
           </select>
         </div>
         
@@ -110,21 +115,29 @@
             <option value="flex-start">flex-start;</option>
             <option value="flex-end">flex-end;</option>
             <option value="center">center;</option>
+            
             <option value="space-between">space-between;</option>
             <option value="space-around">space-around;</option>
             <option value="space-evenly">space-evenly;</option>
-
+            
+            
           </select>
         </div>
         
         <div class="rows">
+          
           <label for="gap">gap:</label>
           <div id="gapSpan">5px</div>
           <span>;</span>
           <input oninput="range()" class="range" id="gapRange" type="range" min="0" max="200" value="5">
         </div>
- 
+          
+          
+          
+        
+        
         <p class="p1">}</p>
+        <button onClick="copyText()">Copy Code</button>
       </div>
     </div>
 
