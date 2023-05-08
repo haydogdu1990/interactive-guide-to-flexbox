@@ -52,6 +52,7 @@ function resetBox() { container.innerHTML  = `
 
 async function copyText() {
   let code=`.container {
+    display: flex;
     flex-direction:${flexDirectionValue};
     flex-wrap:${flexWrapValue};
     justify-content:${justifyContentValue};
